@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1d5311359e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="principal">
+
+            <div class="logo">
+                <img src="img/Logo.png" alt="logo">
+            </div>
+            
+            <div class="entrada">
+
+                <textarea name="" id="mensajein" placeholder="Ingrese el texto aqui"></textarea>
+
+                <span><i class="fa-solid fa-circle-exclamation"></i> Solo letras minusculas y sin acentos</span>
+
+                <div class="botones">
+
+                    <button onclick="encriptar();" class="encriptar">Encriptar</button>
+
+                    <button onclick="desencriptar();" class="desencriptar">Desencriptar</button>
+                </div>
+            </div>
+
+            <div class="salida">
+
+                <div class="txtsalida" id="txtsalida">
+                </div>
+
+                <img src="img/Muñeco.png" alt="niño-lupa" id="imglupa">
+
+                <div class="texto1" id="txt1">
+                    Ningún mensaje fue encontrado
+                </div>
+
+                <div class="texto2" id="txt2">
+                    Ingresa el texto que desees encriptar o desencriptar
+                </div>
+
+                <button onclick="copiar();" class="copiar" id="copiar">Copiar</button>
+
+            </div>
+
+        </div>        
+    </main>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
