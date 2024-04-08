@@ -30,9 +30,9 @@ function desencriptar(){
         noMensaje();
     } else {
 
+        mensaje = mensaje.replaceAll("ai","a");
         mensaje = mensaje.replaceAll("enter","e");
         mensaje = mensaje.replaceAll("imes","i");
-        mensaje = mensaje.replaceAll("ai","a");
         mensaje = mensaje.replaceAll("ober","o");
         mensaje = mensaje.replaceAll("ufat","u");
 
