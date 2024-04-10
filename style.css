@@ -175,6 +175,11 @@ footer i {
     margin: 0px 15px;
     font-size: 25px;
     color: #0A3871;
+    transition: 0.3s all;
+}
+
+footer i:hover {
+  transform: scale(1.02);
 }
 
 @media screen and (max-width: 912px){
