@@ -10,7 +10,7 @@ body {
 
 .principal {
     width: 100vw;
-    height: 100vh;    
+    height: 95vh;    
     background-color: #F3F5FC;
     display: flex;
 }
@@ -162,6 +162,19 @@ button {
 .copiar:hover {
     cursor: pointer;
     transform: scale(1.02);
+}
+
+footer {
+    height: 5vh;
+    background-color: #F3F5FC;
+    display: flex;
+    justify-content: center;
+}
+
+footer i {
+    margin: 0px 15px;
+    font-size: 25px;
+    color: #0A3871;
 }
 
 @media screen and (max-width: 912px){
